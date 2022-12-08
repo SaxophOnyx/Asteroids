@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\StateManagment">
+      <UniqueIdentifier>{6affd690-5be6-4a1e-9c14-6b649c8869b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\StateManagment\States">
+      <UniqueIdentifier>{cc3057b2-6c0e-42d9-bd9d-c2de356074b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\GameObjects">
+      <UniqueIdentifier>{341bd9ae-131e-428e-87f9-a9afb57cd89e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Common">
+      <UniqueIdentifier>{61a5e3ce-5134-45b1-b820-c35029ceec68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\ResourceManagment">
+      <UniqueIdentifier>{a9c53b6c-91ef-4078-8c37-b1c7624cea83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Systems">
+      <UniqueIdentifier>{b21add7c-6575-465d-861d-0af79ce274bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\EventManagment">
+      <UniqueIdentifier>{398590f8-c3b5-43bc-8fe3-f4851804096b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\EventManagment\Events">
+      <UniqueIdentifier>{34e557fd-bd7b-468b-8e8f-ca8eac22899a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\GameObjects\Concrete">
+      <UniqueIdentifier>{945ac484-3a39-4478-8e20-a5822adb761e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\GameObjects\Abstract">
+      <UniqueIdentifier>{a5f2f99b-857a-48ee-ab90-206673d26b1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\GUI">
+      <UniqueIdentifier>{61a00c1b-4ad7-45a3-aabc-df182327d6e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\GameObjects\Factories">
+      <UniqueIdentifier>{b76a912a-3c8a-4c73-8e00-71586c90f8b8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Исходные файлы\StateManagment\States</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Исходные файлы\StateManagment\States</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachine.cpp">
+      <Filter>Исходные файлы\StateManagment</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionSystem.cpp">
+      <Filter>Исходные файлы\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Исходные файлы\GameObjects\Abstract</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleObjectFactory.cpp">
+      <Filter>Исходные файлы\GameObjects\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleResourceManager.cpp">
+      <Filter>Исходные файлы\ResourceManagment</Filter>
+    </ClCompile>
+    <ClCompile Include="ISimpleResourceManager.cpp">
+      <Filter>Исходные файлы\ResourceManagment</Filter>
+    </ClCompile>
+    <ClCompile Include="UIComponent.cpp">
+      <Filter>Исходные файлы\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Исходные файлы\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Исходные файлы\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="CollidableObject.cpp">
+      <Filter>Исходные файлы\GameObjects\Abstract</Filter>
+    </ClCompile>
+    <ClCompile Include="IEventInput.cpp">
+      <Filter>Исходные файлы\EventManagment</Filter>
+    </ClCompile>
+    <ClCompile Include="AsteroidBase.cpp">
+      <Filter>Исходные файлы\GameObjects\Abstract</Filter>
+    </ClCompile>
+    <ClCompile Include="SmallAsteroid.cpp">
+      <Filter>Исходные файлы\GameObjects\Concrete</Filter>
+    </ClCompile>
+    <ClCompile Include="EventBus.cpp">
+      <Filter>Исходные файлы\EventManagment</Filter>
+    </ClCompile>
+    <ClCompile Include="EventBase.cpp">
+      <Filter>Исходные файлы\EventManagment\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="CooldownTimer.cpp">
+      <Filter>Исходные файлы\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Исходные файлы\GameObjects\Concrete</Filter>
+    </ClCompile>
+    <ClCompile Include="LabeledCounter.cpp">
+      <Filter>Исходные файлы\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerDiedEvent.cpp">
+      <Filter>Исходные файлы\EventManagment\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Label.cpp">
+      <Filter>Исходные файлы\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverState.cpp">
+      <Filter>Исходные файлы\StateManagment\States</Filter>
+    </ClCompile>
+    <ClCompile Include="LargeAsteroid.cpp">
+      <Filter>Исходные файлы\GameObjects\Concrete</Filter>
+    </ClCompile>
+    <ClCompile Include="AddMath.cpp">
+      <Filter>Исходные файлы\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>Исходные файлы\StateManagment\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Исходные файлы\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="LargeAsteroidDestroyedEvent.cpp">
+      <Filter>Исходные файлы\EventManagment\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="SmallAsteroidDestroyedEvent.cpp">
+      <Filter>Исходные файлы\EventManagment\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerProjectile.cpp">
+      <Filter>Исходные файлы\GameObjects\Concrete</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerShotEvent.cpp">
+      <Filter>Исходные файлы\EventManagment\Events</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="State.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionSystem.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleObjectFactory.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleResourceManager.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="ISimpleResourceManager.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="UIComponent.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="CollidableObject.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="AsteroidBase.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="IEventInput.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="EventBase.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="SmallAsteroid.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="EventBus.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="CooldownTimer.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="LabeledCounter.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerDiedEvent.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Label.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverState.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="LargeAsteroid.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="AddMath.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="LargeAsteroidDestroyedEvent.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="SmallAsteroidDestroyedEvent.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerProjectile.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerShotEvent.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
